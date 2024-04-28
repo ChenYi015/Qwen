@@ -95,12 +95,14 @@ COPY ../requirements.txt ./
 COPY ../requirements_web_demo.txt ./
 COPY ../cli_demo.py ./
 COPY ../web_demo.py ./
+COPY ../web_demo_peft.py ./
 COPY ../openai_api.py ./
 COPY ../finetune.py ./
 COPY ../utils.py ./
 COPY ./examples/* ./examples/
 COPY ./eval/* ./eval/
 COPY ./finetune/* ./finetune/
+COPY example.json ./
 
 EXPOSE 80
 
